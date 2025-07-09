@@ -1,4 +1,0 @@
-[dotenv@17.0.1] injecting env (1) from .env – [tip] encrypt with dotenvx: https://dotenvx.com
-Server running on port 5000
-Backend API available at http://localhost:5000
-Auth endpoints available at http://localhost:5000/api/auth
