@@ -11,7 +11,10 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://student-collaboration-hub-frontend.onrender.com'] // Frontend URL on Render
+    ? [
+        'https://student-collaboration-hub-frontend.onrender.com',
+        'https://summerintenshipfrontend.netlify.app'
+      ] // Add your Netlify URL here!
     : ['http://localhost:5173', 'http://localhost:5174'],
   credentials: true
 }));
