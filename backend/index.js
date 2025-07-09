@@ -13,8 +13,9 @@ app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? [
         'https://student-collaboration-hub-frontend.onrender.com',
-        'https://summerintenshipfrontend.netlify.app'
-      ] // Add your Netlify URL here!
+        'https://summerintenshipfrontend.netlify.app',
+        'https://mainprojectsum.netlify.app'
+      ] // Add your Netlify URLs here!
     : ['http://localhost:5173', 'http://localhost:5174'],
   credentials: true
 }));
