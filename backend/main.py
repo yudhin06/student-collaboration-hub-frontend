@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 from dotenv import load_dotenv
 import os
-from backend.routes import auth, blog, papers
+from routes import auth, blog, papers
 from fastapi.staticfiles import StaticFiles
 
 try:

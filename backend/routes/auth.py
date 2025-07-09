@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status, Depends, Body, Request, UploadFile, File
 from passlib.context import CryptContext
-from backend.models.user import UserCreate
-from backend.db import db
+from models.user import UserCreate
+from db import db
 import jwt
 import datetime
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials

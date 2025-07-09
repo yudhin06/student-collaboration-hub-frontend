@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException, status, Depends, UploadFile, File
 from typing import List
 from datetime import datetime
 from bson import ObjectId
-from backend.models.blog import BlogPostCreate, BlogPostResponse, BlogPostUpdate, LikeInfo, Comment
-from backend.db import db
+from models.blog import BlogPostCreate, BlogPostResponse, BlogPostUpdate, LikeInfo, Comment
+from db import db
 import os
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
