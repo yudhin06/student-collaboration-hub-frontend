@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../AuthContext';
 
 const questionPapers = [
   { name: 'AI-ML Midterm 2023', subject: 'AI-ML', year: 2023, filename: 'ai_ml_midterm_2023.pdf' },
@@ -17,6 +18,7 @@ const questionPapers = [
 ];
 
 const QuestionPapers = () => {
+  const { logout } = useAuth();
   return (
     <div className="page-container">
       <div className="page-header">
@@ -24,7 +26,7 @@ const QuestionPapers = () => {
           <Link to="/" className="back-btn">
             ← Back to Dashboard
           </Link>
-          <Link to="/signin" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
         </div>
         <h1>Previous Year Question Papers</h1>
       </div>

@@ -61,12 +61,12 @@ const Post = ({ darkMode, setDarkMode }) => {
 
   useEffect(() => {
     if (authLoading) return; // Wait for auth to load
-    if (!token) {
+    if (!token || !user) {
       navigate('/signin');
       return;
     }
     initializePost();
-  }, [token, authLoading]);
+  }, [token, user, authLoading, navigate]);
 
   useEffect(() => {
     if (!hasAnimated && postList.length > 0) {
@@ -234,7 +234,7 @@ const Post = ({ darkMode, setDarkMode }) => {
         <div className="page-header">
           <div className="page-header-top">
             <Link to="/" className="back-btn">← Back to Dashboard</Link>
-            <Link to="/signin" className="logout-btn">Logout</Link>
+            <button onClick={() => logout()} className="logout-btn">Logout</button>
           </div>
           <h1>Posts</h1>
         </div>
@@ -257,13 +257,13 @@ const Post = ({ darkMode, setDarkMode }) => {
         <div className="page-header">
           <div className="page-header-top">
             <Link to="/" className="back-btn">← Back to Dashboard</Link>
-            <Link to="/signin" className="logout-btn">Logout</Link>
+            <button onClick={() => logout()} className="logout-btn">Logout</button>
           </div>
           <h1>Posts</h1>
         </div>
         <div className="page-content">
           <div style={{ textAlign: 'center', padding: '2rem' }}>
-            <p>Loading post posts...</p>
+            <p>Loading posts...</p>
           </div>
         </div>
       </div>
@@ -276,7 +276,7 @@ const Post = ({ darkMode, setDarkMode }) => {
         <div className="page-header">
           <div className="page-header-top">
             <Link to="/" className="back-btn">← Back to Dashboard</Link>
-            <Link to="/signin" className="logout-btn">Logout</Link>
+            <button onClick={() => logout()} className="logout-btn">Logout</button>
           </div>
           <h1>Posts</h1>
         </div>
@@ -295,15 +295,15 @@ const Post = ({ darkMode, setDarkMode }) => {
     try {
       setLoading(true);
       setError(null);
-      const result = await postAPI.createPost(postData);
+      const result = await postAPI.createPost(postData, token);
       if (result && result.id) {
         setShowCreate(false);
         await initializePost(); // Refresh posts
       } else {
-        setError(result?.detail || 'Failed to create post post.');
+        setError(result?.detail || 'Failed to create post.');
       }
     } catch (err) {
-      setError(err.message || 'Failed to create post post.');
+      setError(err.message || 'Failed to create post.');
     } finally {
       setLoading(false);
     }
@@ -314,7 +314,7 @@ const Post = ({ darkMode, setDarkMode }) => {
       <div className="page-header">
         <div className="page-header-top">
           <Link to="/" className="back-btn">← Back to Dashboard</Link>
-          <Link to="/signin" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
           <button className="dark-mode-toggle" onClick={() => setDarkMode(dm => !dm)}>
             {darkMode ? '🌙 Dark' : '☀️ Light'}
           </button>

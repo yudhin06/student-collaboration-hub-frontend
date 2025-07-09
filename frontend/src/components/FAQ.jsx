@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../AuthContext';
 
 const FAQ = () => {
+  const { logout } = useAuth();
   return (
     <div className="page-container">
       <div className="page-header">
@@ -9,7 +11,7 @@ const FAQ = () => {
           <Link to="/" className="back-btn">
             ← Back to Dashboard
           </Link>
-          <Link to="/signin" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
         </div>
         <h1>FAQ</h1>
       </div>

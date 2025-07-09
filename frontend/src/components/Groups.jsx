@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../AuthContext';
 
 const Groups = () => {
+  const { logout } = useAuth();
   const [activeTab, setActiveTab] = useState('study-groups');
   const [openChats, setOpenChats] = useState({});
   const [messages, setMessages] = useState({});
@@ -202,7 +204,7 @@ const Groups = () => {
           <Link to="/" className="back-btn">
             ← Back to Dashboard
           </Link>
-          <Link to="/signin" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
         </div>
         <h1>Groups & Collaboration</h1>
       </div>

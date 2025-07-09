@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../AuthContext';
+import { useEffect } from 'react';
 
 const dashboardFeatures = [
   { label: 'Question Papers', icon: '📄', link: '/question-papers', isRoute: true },
@@ -37,6 +39,17 @@ const trendingTags = [
 const motivationalQuote = "Success is the sum of small efforts, repeated day in and day out.";
 
 const MainPage = ({ darkMode, setDarkMode }) => {
+  const { user, isLoading, logout } = useAuth();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isLoading && !user) {
+      navigate('/signin');
+    }
+  }, [isLoading, user, navigate]);
+
+  if (isLoading) return <div>Loading...</div>;
+
   return (
     <div className={`main-bg${darkMode ? ' dark' : ''}`}> 
       {/* Navbar */}
@@ -49,7 +62,7 @@ const MainPage = ({ darkMode, setDarkMode }) => {
           <button className="dark-mode-toggle" onClick={() => setDarkMode(dm => !dm)}>
             {darkMode ? '🌙 Dark' : '☀️ Light'}
           </button>
-          <Link to="/signin" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
         </div>
       </nav>
 

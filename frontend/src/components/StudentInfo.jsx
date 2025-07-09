@@ -94,7 +94,7 @@ const StudentInfo = () => {
               </button>
             </div>
           )}
-          <Link to="/signin" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
         </div>
       </div>
 

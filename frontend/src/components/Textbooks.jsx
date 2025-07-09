@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../AuthContext';
 
 const textbooks = [
   { name: 'Introduction to Machine Learning', subject: 'AI-ML', author: 'rinaaz', url: '#' },
@@ -13,6 +14,7 @@ const textbooks = [
 ];
 
 const Textbooks = () => {
+  const { logout } = useAuth();
   return (
     <div className="page-container">
       <div className="page-header">
@@ -20,7 +22,7 @@ const Textbooks = () => {
           <Link to="/" className="back-btn">
             ← Back to Dashboard
           </Link>
-          <Link to="/login" className="logout-btn">Logout</Link>
+          <button onClick={() => logout()} className="logout-btn">Logout</button>
         </div>
         <h1>Textbooks</h1>
       </div>
