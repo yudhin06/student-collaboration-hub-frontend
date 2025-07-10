@@ -29,7 +29,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://studentcolla.netlify.app",
-        "https://projectshiv.netlify.app"
+        "https://projectshiv.netlify.app",
+        "https://graceful-lolly-c287c1.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -51,6 +52,10 @@ app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 @app.get("/")
 async def root():
     return {"message": "FastAPI backend running!"}
+
+@app.get("/api/health")
+async def health_check():
+    return {"status": "ok", "message": "Student Collaboration Hub API is running"}
 
 @app.get("/papers")
 async def get_papers():

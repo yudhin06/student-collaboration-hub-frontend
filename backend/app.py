@@ -14,8 +14,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://studentcolla.netlify.app",
-        "https://projectshiv.netlify.app"
-    ],  # Allow both Netlify frontends
+        "https://projectshiv.netlify.app",
+        "https://graceful-lolly-c287c1.netlify.app"
+    ],  # Allow all Netlify frontends
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
