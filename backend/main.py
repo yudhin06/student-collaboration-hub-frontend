@@ -25,16 +25,19 @@ if cloudinary is not None:
 
 app = FastAPI()
 
-# CORS: Only allow your deployed frontend
+# --- CORS SETUP: Allow deployed frontend and local dev ---
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://sumintproj.netlify.app"
+        "https://student-collaboration-hub-frontend.onrender.com",
+        "http://localhost:5173",
+        "http://localhost:5174"
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+# --- END CORS SETUP ---
 
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 client = AsyncIOMotorClient(MONGO_URI)
