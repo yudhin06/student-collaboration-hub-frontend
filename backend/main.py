@@ -25,7 +25,6 @@ if cloudinary is not None:
 
 app = FastAPI()
 
-# CORS: Only allow your deployed frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
