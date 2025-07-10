@@ -53,7 +53,7 @@ app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 async def root():
     return {"message": "FastAPI backend running!"}
 
-@app.get("/api/health")
+@app.get("/health")
 async def health_check():
     return {"status": "ok", "message": "Student Collaboration Hub API is running"}
 
