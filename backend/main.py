@@ -6,6 +6,7 @@ import os
 from routes import auth, blog, papers
 from fastapi.staticfiles import StaticFiles
 
+# Optional: Cloudinary support (remove if not needed)
 try:
     import cloudinary
     import cloudinary.api
@@ -24,18 +25,18 @@ if cloudinary is not None:
 
 app = FastAPI()
 
+# CORS: Only allow your deployed frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://sumintproj.netlify.app",
-        "http://localhost:5173"
+        "https://sumintproj.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-MONGO_URI = "mongodb+srv://theonlyudhin64:yudhin123@cluster0.brprlgk.mongodb.net/"
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 client = AsyncIOMotorClient(MONGO_URI)
 db = client["student_hub"]
 

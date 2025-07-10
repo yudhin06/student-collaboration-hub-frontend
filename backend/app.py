@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv
-from backend.routes.auth import router as auth_router
-from backend.routes.blog import router as blog_router
+from routes.auth import router as auth_router
+from routes.blog import router as blog_router
 
 load_dotenv()
 
