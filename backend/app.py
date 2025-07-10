@@ -12,7 +12,10 @@ app = FastAPI()
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174", "https://student-collaborattend-ei1h.vercel.app"],  # Allow both common Vite ports
+    allow_origins=[
+        "https://studentcolla.netlify.app",
+        "https://projectshiv.netlify.app"
+    ],  # Allow both Netlify frontends
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -32,4 +35,4 @@ async def startup_event():
     print("📡 API available at http://localhost:8000")
     print("🔐 Auth endpoints at http://localhost:8000/api/auth")
     print("📝 Blog endpoints at http://localhost:8000/api/blog")
-    print("✅ MongoDB connected successfully") 
+    print("✅ MongoDB connected successfully")

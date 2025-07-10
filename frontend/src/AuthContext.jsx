@@ -6,8 +6,12 @@ export function AuthProvider({ children }) {
   // Initialize state from localStorage
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [user, setUser] = useState(() => {
-    const savedUser = localStorage.getItem('user');
-    return savedUser ? JSON.parse(savedUser) : null;
+    try {
+      const item = localStorage.getItem("user");
+      return item ? JSON.parse(item) : null;
+    } catch (e) {
+      return null;
+    }
   });
   const [isLoading, setIsLoading] = useState(true);
 

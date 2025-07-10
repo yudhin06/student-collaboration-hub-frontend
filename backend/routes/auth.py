@@ -9,11 +9,12 @@ from bson import ObjectId
 import os
 from fastapi.responses import JSONResponse
 from motor.motor_asyncio import AsyncIOMotorGridFSBucket
+from fastapi.middleware.cors import CORSMiddleware
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-SECRET_KEY = "your_secret_key"  # Replace with a secure key in production
+SECRET_KEY = os.getenv("JWT_SECRET", "your_secret_key")  # Replace with a secure key in production
 ALGORITHM = "HS256"
 
 security = HTTPBearer()
