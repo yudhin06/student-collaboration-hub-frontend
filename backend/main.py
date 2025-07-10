@@ -26,7 +26,10 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://sumintproj.netlify.app",
+        "http://localhost:5173"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -47,11 +50,6 @@ app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 @app.get("/")
 async def root():
     return {"message": "FastAPI backend running!"}
-
-@app.get("/materials")
-async def get_materials():
-    materials = await db.materials.find().to_list(100)
-    return materials
 
 @app.get("/papers")
 async def get_papers():
