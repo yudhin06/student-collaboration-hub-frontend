@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { useAuth } from '../AuthContext.jsx';
-import { postAPI } from '../services/api';
+import { useParams } from 'react-router-dom';
+import { useAuth } from '../hooks/useAuth';
 // Placeholder API calls for followers/following (to be implemented with backend)
 const mockUser = {
   _id: 'user123',
@@ -15,13 +14,12 @@ const TABS = ['Posts', 'Followers', 'Following'];
 
 const UserProfile = () => {
   const { userId } = useParams();
-  const { user, token } = useAuth();
+  const { user } = useAuth();
   const [profile, setProfile] = useState(null);
   const [posts, setPosts] = useState([]);
   const [tab, setTab] = useState('Posts');
   const [loading, setLoading] = useState(true);
   const [isFollowing, setIsFollowing] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     // TODO: Fetch user profile and posts from backend

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../AuthContext';
+import { useAuth } from '../hooks/useAuth';
+import { API_BASE_URL } from '../services/api';
 
 const questionPapers = [
   { name: 'AI-ML Midterm 2023', subject: 'AI-ML', year: 2023, filename: 'ai_ml_midterm_2023.pdf' },
@@ -50,7 +51,7 @@ const QuestionPapers = () => {
                   <td>{paper.year}</td>
                   <td>
                     <a 
-                      href={`http://localhost:8000/api/papers/${paper.filename}`} 
+                      href={`${API_BASE_URL}/papers/${paper.filename}`} 
                       download 
                       className="download-link"
                     >

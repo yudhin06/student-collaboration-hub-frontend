@@ -1,6 +1,6 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 
-const AuthContext = createContext();
+export const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
   // Initialize state from localStorage
@@ -9,7 +9,7 @@ export function AuthProvider({ children }) {
     try {
       const item = localStorage.getItem("user");
       return item ? JSON.parse(item) : null;
-    } catch (e) {
+    } catch {
       return null;
     }
   });
@@ -39,8 +39,4 @@ export function AuthProvider({ children }) {
       {children}
     </AuthContext.Provider>
   );
-}
-
-export function useAuth() {
-  return useContext(AuthContext);
 } 

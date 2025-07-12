@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import apiService from '../services/api';
-import { useAuth } from '../AuthContext.jsx';
+import { useAuth } from '../hooks/useAuth';
 
 const SignIn = () => {
   const [formData, setFormData] = useState({
@@ -10,7 +10,6 @@ const SignIn = () => {
   });
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
-  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
   const { login } = useAuth();
 

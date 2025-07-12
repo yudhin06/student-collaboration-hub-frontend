@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from motor.motor_asyncio import AsyncIOMotorClient
 from dotenv import load_dotenv
 import os
 from routes import auth, blog, papers
 from fastapi.staticfiles import StaticFiles
+from db import db
 
 # Optional: Cloudinary support (remove if not needed)
 try:
@@ -14,7 +14,7 @@ try:
 except ImportError:
     cloudinary = None
 
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 if cloudinary is not None:
     cloudinary.config(
@@ -30,16 +30,13 @@ app.add_middleware(
     allow_origins=[
         "https://studentcolla.netlify.app",
         "https://projectshiv.netlify.app",
-        "https://graceful-lolly-c287c1.netlify.app"
+        "https://graceful-lolly-c287c1.netlify.app",
+        "https://sch-yudhin.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-client = AsyncIOMotorClient(MONGO_URI)
-db = client["student_hub"]
 
 app.include_router(auth.router)
 app.include_router(blog.router)

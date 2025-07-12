@@ -1,0 +1,2109 @@
+[{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a657"
+  },
+  "type": "note",
+  "title": "Discrete Mathematics Notes - Graph Theory",
+  "excerpt": "Download comprehensive notes on Graph Theory for quick revision.",
+  "author": "Ananya Sharma",
+  "category": "Notes",
+  "read_time": "2 min read",
+  "tags": [
+    "Mathematics",
+    "Graph Theory",
+    "CS201"
+  ],
+  "document_url": "https://res.cloudinary.com/demo/raw/upload/v1710000000/graph_theory_notes.pdf",
+  "content": "These notes cover all important concepts in Graph Theory for CS201.",
+  "likes": [
+    {
+      "user_id": "686a3bd6476f34fcee4ce8ec",
+      "user_name": "yudhin",
+      "liked_at": {
+        "$date": "2025-07-07T16:31:09.405Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2025-07-07T10:44:46.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a658"
+  },
+  "type": "job",
+  "title": "Software Engineer Internship at Google",
+  "excerpt": "Exciting internship opportunity for 3rd year students. Apply now!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.google.com/jobs/results/123456-software-engineer-intern/",
+  "referral_info": "Contact alumni Priya S. for referral.",
+  "content": "Google is hiring interns for Summer 2024. See link for details.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:46.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a659"
+  },
+  "type": "thread",
+  "title": "How to prepare for GATE CS?",
+  "excerpt": "Share your tips and resources for GATE Computer Science preparation.",
+  "author": "Rahul Verma",
+  "category": "Threads",
+  "read_time": "3 min read",
+  "content": "Let's discuss the best strategies and materials for GATE CS.",
+  "likes": [],
+  "comments": [
+    {
+      "user_id": "user_sneha",
+      "user_name": "Sneha",
+      "text": "Start with previous year papers!",
+      "created_at": {
+        "$date": "2025-07-07T10:44:46.354Z"
+      },
+      "replies": [
+        {
+          "user_id": "user_rahul",
+          "user_name": "Rahul Verma",
+          "text": "Thanks! Any book recommendations?",
+          "created_at": {
+            "$date": "2025-07-07T10:44:46.354Z"
+          }
+        }
+      ]
+    },
+    {
+      "user_id": "user_amit",
+      "user_name": "Amit",
+      "text": "Use NPTEL lectures for tough topics.",
+      "created_at": {
+        "$date": "2025-07-07T10:44:46.354Z"
+      },
+      "replies": []
+    }
+  ],
+  "date": {
+    "$date": "2025-07-07T10:44:46.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a65a"
+  },
+  "title": "Sample Post 1",
+  "excerpt": "This is a sample excerpt for post 1.",
+  "author": "Alice Johnson",
+  "authorId": "alice1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 1.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a65b"
+  },
+  "title": "Sample Post 2",
+  "excerpt": "This is a sample excerpt for post 2.",
+  "author": "Bob Smith",
+  "authorId": "bob2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 2.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a65c"
+  },
+  "title": "Sample Post 3",
+  "excerpt": "This is a sample excerpt for post 3.",
+  "author": "Carol Lee",
+  "authorId": "carol3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 3.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a65d"
+  },
+  "title": "Sample Post 4",
+  "excerpt": "This is a sample excerpt for post 4.",
+  "author": "David Kim",
+  "authorId": "david4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 4.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a65e"
+  },
+  "title": "Sample Post 5",
+  "excerpt": "This is a sample excerpt for post 5.",
+  "author": "Eva Brown",
+  "authorId": "eva5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a65f"
+  },
+  "title": "Sample Post 6",
+  "excerpt": "This is a sample excerpt for post 6.",
+  "author": "Frank Green",
+  "authorId": "frank6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a660"
+  },
+  "title": "Sample Post 7",
+  "excerpt": "This is a sample excerpt for post 7.",
+  "author": "Alice Johnson",
+  "authorId": "alice1",
+  "category": "Other",
+  "read_time": "9 min read",
+  "tags": [
+    "Other",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 7.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a661"
+  },
+  "title": "Sample Post 8",
+  "excerpt": "This is a sample excerpt for post 8.",
+  "author": "Bob Smith",
+  "authorId": "bob2",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 8.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a662"
+  },
+  "title": "Sample Post 9",
+  "excerpt": "This is a sample excerpt for post 9.",
+  "author": "Carol Lee",
+  "authorId": "carol3",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 9.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a663"
+  },
+  "title": "Sample Post 10",
+  "excerpt": "This is a sample excerpt for post 10.",
+  "author": "David Kim",
+  "authorId": "david4",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 10.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a664"
+  },
+  "title": "Sample Post 11",
+  "excerpt": "This is a sample excerpt for post 11.",
+  "author": "Eva Brown",
+  "authorId": "eva5",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 11.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686ba528b4c113d43143a665"
+  },
+  "title": "Sample Post 12",
+  "excerpt": "This is a sample excerpt for post 12.",
+  "author": "Frank Green",
+  "authorId": "frank6",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 12.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-07T10:44:56.906Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686bfb51b4c113d43143a666"
+  },
+  "type": "note",
+  "title": "aiml",
+  "excerpt": "dbms done",
+  "author": "yudhin",
+  "category": "AI-ML",
+  "read_time": "1 min read",
+  "image": null,
+  "tags": [],
+  "content": "dbms done",
+  "comments": [],
+  "document_url": null,
+  "job_link": null,
+  "referral_info": null,
+  "date": {
+    "$date": "2025-07-07T16:52:33.623Z"
+  },
+  "likes": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a667"
+  },
+  "title": "Sample Post 1",
+  "excerpt": "This is a sample excerpt for post 1.",
+  "author": "Alice Johnson",
+  "authorId": "alice1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 1.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a668"
+  },
+  "title": "Sample Post 2",
+  "excerpt": "This is a sample excerpt for post 2.",
+  "author": "Bob Smith",
+  "authorId": "bob2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 2.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a669"
+  },
+  "title": "Sample Post 3",
+  "excerpt": "This is a sample excerpt for post 3.",
+  "author": "Carol Lee",
+  "authorId": "carol3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 3.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a66a"
+  },
+  "title": "Sample Post 4",
+  "excerpt": "This is a sample excerpt for post 4.",
+  "author": "David Kim",
+  "authorId": "david4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 4.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a66b"
+  },
+  "title": "Sample Post 5",
+  "excerpt": "This is a sample excerpt for post 5.",
+  "author": "Eva Brown",
+  "authorId": "eva5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a66c"
+  },
+  "title": "Sample Post 6",
+  "excerpt": "This is a sample excerpt for post 6.",
+  "author": "Frank Green",
+  "authorId": "frank6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a66d"
+  },
+  "title": "Sample Post 7",
+  "excerpt": "This is a sample excerpt for post 7.",
+  "author": "Alice Johnson",
+  "authorId": "alice1",
+  "category": "Other",
+  "read_time": "9 min read",
+  "tags": [
+    "Other",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 7.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a66e"
+  },
+  "title": "Sample Post 8",
+  "excerpt": "This is a sample excerpt for post 8.",
+  "author": "Bob Smith",
+  "authorId": "bob2",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 8.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a66f"
+  },
+  "title": "Sample Post 9",
+  "excerpt": "This is a sample excerpt for post 9.",
+  "author": "Carol Lee",
+  "authorId": "carol3",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 9.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a670"
+  },
+  "title": "Sample Post 10",
+  "excerpt": "This is a sample excerpt for post 10.",
+  "author": "David Kim",
+  "authorId": "david4",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 10.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a671"
+  },
+  "title": "Sample Post 11",
+  "excerpt": "This is a sample excerpt for post 11.",
+  "author": "Eva Brown",
+  "authorId": "eva5",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 11.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd216b4c113d43143a672"
+  },
+  "title": "Sample Post 12",
+  "excerpt": "This is a sample excerpt for post 12.",
+  "author": "Frank Green",
+  "authorId": "frank6",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 12.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:08:54.482Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf47"
+  },
+  "title": "Sample Post 1",
+  "excerpt": "This is a sample excerpt for post 1.",
+  "author": "Aarav Sharma",
+  "authorId": "aarav1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 1.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf48"
+  },
+  "title": "Sample Post 2",
+  "excerpt": "This is a sample excerpt for post 2.",
+  "author": "Diya Patel",
+  "authorId": "diya2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 2.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf49"
+  },
+  "title": "Sample Post 3",
+  "excerpt": "This is a sample excerpt for post 3.",
+  "author": "Vivaan Singh",
+  "authorId": "vivaan3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 3.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf4a"
+  },
+  "title": "Sample Post 4",
+  "excerpt": "This is a sample excerpt for post 4.",
+  "author": "Ananya Iyer",
+  "authorId": "ananya4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 4.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf4b"
+  },
+  "title": "Sample Post 5",
+  "excerpt": "This is a sample excerpt for post 5.",
+  "author": "Ishaan Gupta",
+  "authorId": "ishaan5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf4c"
+  },
+  "title": "Sample Post 6",
+  "excerpt": "This is a sample excerpt for post 6.",
+  "author": "Priya Reddy",
+  "authorId": "priya6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf4d"
+  },
+  "title": "Sample Post 7",
+  "excerpt": "This is a sample excerpt for post 7.",
+  "author": "Kabir Nair",
+  "authorId": "kabir7",
+  "category": "Other",
+  "read_time": "9 min read",
+  "tags": [
+    "Other",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 7.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf4e"
+  },
+  "title": "Sample Post 8",
+  "excerpt": "This is a sample excerpt for post 8.",
+  "author": "Meera Joshi",
+  "authorId": "meera8",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 8.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf4f"
+  },
+  "title": "Sample Post 9",
+  "excerpt": "This is a sample excerpt for post 9.",
+  "author": "Rohan Das",
+  "authorId": "rohan9",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 9.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf50"
+  },
+  "title": "Sample Post 10",
+  "excerpt": "This is a sample excerpt for post 10.",
+  "author": "Saanvi Mehta",
+  "authorId": "saanvi10",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 10.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf51"
+  },
+  "title": "Sample Post 11",
+  "excerpt": "This is a sample excerpt for post 11.",
+  "author": "Aditya Rao",
+  "authorId": "aditya11",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 11.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd3d8436f1e98e1accf52"
+  },
+  "title": "Sample Post 12",
+  "excerpt": "This is a sample excerpt for post 12.",
+  "author": "Sneha Pillai",
+  "authorId": "sneha12",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 12.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:16:24.211Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880ad"
+  },
+  "title": "Sample Post 1",
+  "excerpt": "This is a sample excerpt for post 1.",
+  "author": "Rinaaz",
+  "authorId": "rinaaz1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 1.",
+  "likes": [
+    {
+      "user_id": "686a535f476f34fcee4ce918",
+      "user_name": "mohit",
+      "liked_at": {
+        "$date": "2025-07-08T15:23:09.557Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": [
+    {
+      "user_id": "686a3bd6476f34fcee4ce8ec",
+      "user_name": "yudhin",
+      "text": "fhbdshbfds",
+      "created_at": {
+        "$date": "2025-07-09T09:55:04.715Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880ae"
+  },
+  "title": "Sample Post 2",
+  "excerpt": "This is a sample excerpt for post 2.",
+  "author": "Mohit",
+  "authorId": "mohit2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 2.",
+  "likes": [
+    {
+      "user_id": "686a3bd6476f34fcee4ce8ec",
+      "user_name": "yudhin",
+      "liked_at": {
+        "$date": "2025-07-08T21:42:52.366Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880af"
+  },
+  "title": "Sample Post 3",
+  "excerpt": "This is a sample excerpt for post 3.",
+  "author": "Akhilesh",
+  "authorId": "akhilesh3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 3.",
+  "likes": [
+    {
+      "user_id": "686a535f476f34fcee4ce918",
+      "user_name": "mohit",
+      "liked_at": {
+        "$date": "2025-07-08T10:04:52.882Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b0"
+  },
+  "title": "Sample Post 4",
+  "excerpt": "This is a sample excerpt for post 4.",
+  "author": "Tanukj",
+  "authorId": "tanukj4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 4.",
+  "likes": [
+    {
+      "user_id": "686a535f476f34fcee4ce918",
+      "user_name": "mohit",
+      "liked_at": {
+        "$date": "2025-07-08T14:05:28.530Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b1"
+  },
+  "title": "Sample Post 5",
+  "excerpt": "This is a sample excerpt for post 5.",
+  "author": "Bahrath M",
+  "authorId": "bahrathm5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": [
+    {
+      "user_id": "686a3bd6476f34fcee4ce8ec",
+      "user_name": "yudhin",
+      "text": "bhdsvfd",
+      "created_at": {
+        "$date": "2025-07-09T07:59:18.485Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b2"
+  },
+  "title": "Sample Post 6",
+  "excerpt": "This is a sample excerpt for post 6.",
+  "author": "Deekshith",
+  "authorId": "deekshith6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b3"
+  },
+  "title": "Sample Post 7",
+  "excerpt": "This is a sample excerpt for post 7.",
+  "author": "Rinaaz",
+  "authorId": "rinaaz1",
+  "category": "Other",
+  "read_time": "9 min read",
+  "tags": [
+    "Other",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 7.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b4"
+  },
+  "title": "Sample Post 8",
+  "excerpt": "This is a sample excerpt for post 8.",
+  "author": "Mohit",
+  "authorId": "mohit2",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 8.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b5"
+  },
+  "title": "Sample Post 9",
+  "excerpt": "This is a sample excerpt for post 9.",
+  "author": "Akhilesh",
+  "authorId": "akhilesh3",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 9.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b6"
+  },
+  "title": "Sample Post 10",
+  "excerpt": "This is a sample excerpt for post 10.",
+  "author": "Tanukj",
+  "authorId": "tanukj4",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 10.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b7"
+  },
+  "title": "Sample Post 11",
+  "excerpt": "This is a sample excerpt for post 11.",
+  "author": "Bahrath M",
+  "authorId": "bahrathm5",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 11.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686cd5d7a42b67ab6dd880b8"
+  },
+  "title": "Sample Post 12",
+  "excerpt": "This is a sample excerpt for post 12.",
+  "author": "Deekshith",
+  "authorId": "deekshith6",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample post 12.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-08T08:24:55.746Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d7386f"
+  },
+  "type": "job",
+  "title": "Backend Developer Intern at Microsoft",
+  "excerpt": "Join Microsoft as a backend intern. Apply now!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.microsoft.com/us/en/job/12345/Backend-Developer-Intern",
+  "referral_info": "Contact alumni Ravi K. for referral.",
+  "content": "Microsoft is hiring backend interns for Summer 2024. See link for details.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73870"
+  },
+  "type": "job",
+  "title": "Data Analyst - Amazon",
+  "excerpt": "Amazon is looking for Data Analysts. Freshers welcome!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://www.amazon.jobs/en/jobs/67890/Data-Analyst",
+  "referral_info": "Reach out to alumni Sneha S. for referral.",
+  "content": "Apply for Data Analyst roles at Amazon. Great for freshers.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73871"
+  },
+  "type": "job",
+  "title": "Frontend Engineer - Swiggy",
+  "excerpt": "Swiggy is hiring frontend engineers. Apply today!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.swiggy.com/job/54321/Frontend-Engineer",
+  "referral_info": "Contact Mohit for referral.",
+  "content": "Swiggy is looking for frontend engineers for their web team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73872"
+  },
+  "type": "job",
+  "title": "Machine Learning Intern - TCS",
+  "excerpt": "TCS is offering ML internships for students.",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://www.tcs.com/careers/ml-intern",
+  "referral_info": "Contact Deekshith for referral.",
+  "content": "Work on real ML projects at TCS. Apply now!",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73873"
+  },
+  "type": "job",
+  "title": "Software Engineer - Infosys",
+  "excerpt": "Infosys is hiring software engineers. Don’t miss out!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.infosys.com/job/98765/Software-Engineer",
+  "referral_info": "Contact Akhilesh for referral.",
+  "content": "Infosys is looking for software engineers for multiple teams.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73874"
+  },
+  "type": "job",
+  "title": "UI/UX Designer - Zoho",
+  "excerpt": "Zoho is hiring UI/UX Designers. Creative minds wanted!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.zohocorp.com/jobs/24680/UI-UX-Designer",
+  "referral_info": "Contact Tanukj for referral.",
+  "content": "Zoho is looking for creative UI/UX designers.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73875"
+  },
+  "type": "note",
+  "title": "Sample Note Post 1",
+  "excerpt": "This is a sample excerpt for note post 1.",
+  "author": "Rinaaz",
+  "authorId": "rinaaz1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 1.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73876"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 2",
+  "excerpt": "This is a sample excerpt for thread post 2.",
+  "author": "Mohit",
+  "authorId": "mohit2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 2.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73877"
+  },
+  "type": "note",
+  "title": "Sample Note Post 3",
+  "excerpt": "This is a sample excerpt for note post 3.",
+  "author": "Akhilesh",
+  "authorId": "akhilesh3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 3.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73878"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 4",
+  "excerpt": "This is a sample excerpt for thread post 4.",
+  "author": "Tanukj",
+  "authorId": "tanukj4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 4.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d73879"
+  },
+  "type": "note",
+  "title": "Sample Note Post 5",
+  "excerpt": "This is a sample excerpt for note post 5.",
+  "author": "Bahrath M",
+  "authorId": "bahrathm5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e48d7b484b27b08d7387a"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 6",
+  "excerpt": "This is a sample excerpt for thread post 6.",
+  "author": "Deekshith",
+  "authorId": "deekshith6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:47:51.234Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140418"
+  },
+  "type": "job",
+  "title": "Backend Developer Intern at Microsoft",
+  "excerpt": "Join Microsoft as a backend intern. Apply now!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.microsoft.com/us/en/job/12345/Backend-Developer-Intern",
+  "referral_info": "Contact alumni Ravi K. for referral.",
+  "content": "Microsoft is hiring backend interns for Summer 2024. See link for details.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140419"
+  },
+  "type": "job",
+  "title": "Data Analyst - Amazon",
+  "excerpt": "Amazon is looking for Data Analysts. Freshers welcome!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://www.amazon.jobs/en/jobs/67890/Data-Analyst",
+  "referral_info": "Reach out to alumni Sneha S. for referral.",
+  "content": "Apply for Data Analyst roles at Amazon. Great for freshers.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec14041a"
+  },
+  "type": "job",
+  "title": "Frontend Engineer - Swiggy",
+  "excerpt": "Swiggy is hiring frontend engineers. Apply today!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.swiggy.com/job/54321/Frontend-Engineer",
+  "referral_info": "Contact Mohit for referral.",
+  "content": "Swiggy is looking for frontend engineers for their web team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec14041b"
+  },
+  "type": "job",
+  "title": "Machine Learning Intern - TCS",
+  "excerpt": "TCS is offering ML internships for students.",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://www.tcs.com/careers/ml-intern",
+  "referral_info": "Contact Deekshith for referral.",
+  "content": "Work on real ML projects at TCS. Apply now!",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec14041c"
+  },
+  "type": "job",
+  "title": "Software Engineer - Infosys",
+  "excerpt": "Infosys is hiring software engineers. Don’t miss out!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.infosys.com/job/98765/Software-Engineer",
+  "referral_info": "Contact Akhilesh for referral.",
+  "content": "Infosys is looking for software engineers for multiple teams.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec14041d"
+  },
+  "type": "job",
+  "title": "UI/UX Designer - Zoho",
+  "excerpt": "Zoho is hiring UI/UX Designers. Creative minds wanted!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.zohocorp.com/jobs/24680/UI-UX-Designer",
+  "referral_info": "Contact Tanukj for referral.",
+  "content": "Zoho is looking for creative UI/UX designers.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec14041e"
+  },
+  "type": "job",
+  "title": "Cloud Engineer - IBM",
+  "excerpt": "IBM is hiring Cloud Engineers. Apply for exciting cloud projects!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.ibm.com/job/13579/Cloud-Engineer",
+  "referral_info": "Contact Rinaaz for referral.",
+  "content": "IBM is looking for Cloud Engineers to work on next-gen cloud solutions.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec14041f"
+  },
+  "type": "job",
+  "title": "DevOps Engineer - Flipkart",
+  "excerpt": "Flipkart is hiring DevOps Engineers. Join the e-commerce revolution!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.flipkart.com/job/24680/DevOps-Engineer",
+  "referral_info": "Contact Mohit for referral.",
+  "content": "Flipkart is looking for DevOps Engineers for their cloud team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140420"
+  },
+  "type": "job",
+  "title": "Cybersecurity Analyst - Deloitte",
+  "excerpt": "Deloitte is hiring Cybersecurity Analysts. Secure the digital world!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.deloitte.com/job/35791/Cybersecurity-Analyst",
+  "referral_info": "Contact Akhilesh for referral.",
+  "content": "Deloitte is looking for Cybersecurity Analysts for their security team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140421"
+  },
+  "type": "job",
+  "title": "Product Manager - Byju’s",
+  "excerpt": "Byju’s is hiring Product Managers. Lead the next wave in EdTech!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.byjus.com/job/46802/Product-Manager",
+  "referral_info": "Contact Tanukj for referral.",
+  "content": "Byju’s is looking for Product Managers to drive innovation.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140422"
+  },
+  "type": "job",
+  "title": "Android Developer - Ola",
+  "excerpt": "Ola is hiring Android Developers. Build the future of mobility!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.ola.com/job/57913/Android-Developer",
+  "referral_info": "Contact Deekshith for referral.",
+  "content": "Ola is looking for Android Developers for their mobile team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140423"
+  },
+  "type": "job",
+  "title": "QA Engineer - Paytm",
+  "excerpt": "Paytm is hiring QA Engineers. Ensure quality at scale!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.paytm.com/job/68024/QA-Engineer",
+  "referral_info": "Contact Bahrath M for referral.",
+  "content": "Paytm is looking for QA Engineers to test and improve their products.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140424"
+  },
+  "type": "note",
+  "title": "Sample Note Post 1",
+  "excerpt": "This is a sample excerpt for note post 1.",
+  "author": "Rinaaz",
+  "authorId": "rinaaz1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 1.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140425"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 2",
+  "excerpt": "This is a sample excerpt for thread post 2.",
+  "author": "Mohit",
+  "authorId": "mohit2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 2.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140426"
+  },
+  "type": "note",
+  "title": "Sample Note Post 3",
+  "excerpt": "This is a sample excerpt for note post 3.",
+  "author": "Akhilesh",
+  "authorId": "akhilesh3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 3.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140427"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 4",
+  "excerpt": "This is a sample excerpt for thread post 4.",
+  "author": "Tanukj",
+  "authorId": "tanukj4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 4.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140428"
+  },
+  "type": "note",
+  "title": "Sample Note Post 5",
+  "excerpt": "This is a sample excerpt for note post 5.",
+  "author": "Bahrath M",
+  "authorId": "bahrathm5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4900466e2e24ec140429"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 6",
+  "excerpt": "This is a sample excerpt for thread post 6.",
+  "author": "Deekshith",
+  "authorId": "deekshith6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:48:32.936Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec58"
+  },
+  "type": "job",
+  "title": "Backend Developer Intern at Microsoft",
+  "excerpt": "Join Microsoft as a backend intern. Apply now!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.microsoft.com/us/en/job/12345/Backend-Developer-Intern",
+  "referral_info": "Contact alumni Ravi K. for referral.",
+  "content": "Microsoft is hiring backend interns for Summer 2024. See link for details.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec59"
+  },
+  "type": "note",
+  "title": "Sample Note Post 1",
+  "excerpt": "This is a sample excerpt for note post 1.",
+  "author": "Rinaaz",
+  "authorId": "rinaaz1",
+  "category": "AI-ML",
+  "read_time": "3 min read",
+  "tags": [
+    "AI-ML",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 1.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec5a"
+  },
+  "type": "job",
+  "title": "Data Analyst - Amazon",
+  "excerpt": "Amazon is looking for Data Analysts. Freshers welcome!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://www.amazon.jobs/en/jobs/67890/Data-Analyst",
+  "referral_info": "Reach out to alumni Sneha S. for referral.",
+  "content": "Apply for Data Analyst roles at Amazon. Great for freshers.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec5b"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 2",
+  "excerpt": "This is a sample excerpt for thread post 2.",
+  "author": "Mohit",
+  "authorId": "mohit2",
+  "category": "Programming",
+  "read_time": "4 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 2.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec5c"
+  },
+  "type": "job",
+  "title": "Frontend Engineer - Swiggy",
+  "excerpt": "Swiggy is hiring frontend engineers. Apply today!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.swiggy.com/job/54321/Frontend-Engineer",
+  "referral_info": "Contact Mohit for referral.",
+  "content": "Swiggy is looking for frontend engineers for their web team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec5d"
+  },
+  "type": "note",
+  "title": "Sample Note Post 3",
+  "excerpt": "This is a sample excerpt for note post 3.",
+  "author": "Akhilesh",
+  "authorId": "akhilesh3",
+  "category": "Programming",
+  "read_time": "5 min read",
+  "tags": [
+    "Programming",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 3.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec5e"
+  },
+  "type": "job",
+  "title": "Machine Learning Intern - TCS",
+  "excerpt": "TCS is offering ML internships for students.",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://www.tcs.com/careers/ml-intern",
+  "referral_info": "Contact Deekshith for referral.",
+  "content": "Work on real ML projects at TCS. Apply now!",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec5f"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 4",
+  "excerpt": "This is a sample excerpt for thread post 4.",
+  "author": "Tanukj",
+  "authorId": "tanukj4",
+  "category": "Telecommunications",
+  "read_time": "6 min read",
+  "tags": [
+    "Telecommunications",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 4.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec60"
+  },
+  "type": "job",
+  "title": "Software Engineer - Infosys",
+  "excerpt": "Infosys is hiring software engineers. Don’t miss out!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.infosys.com/job/98765/Software-Engineer",
+  "referral_info": "Contact Akhilesh for referral.",
+  "content": "Infosys is looking for software engineers for multiple teams.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec61"
+  },
+  "type": "note",
+  "title": "Sample Note Post 5",
+  "excerpt": "This is a sample excerpt for note post 5.",
+  "author": "Bahrath M",
+  "authorId": "bahrathm5",
+  "category": "Study Tips",
+  "read_time": "7 min read",
+  "tags": [
+    "Study Tips",
+    "Sample"
+  ],
+  "content": "This is the full content of sample note post 5.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec62"
+  },
+  "type": "job",
+  "title": "UI/UX Designer - Zoho",
+  "excerpt": "Zoho is hiring UI/UX Designers. Creative minds wanted!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.zohocorp.com/jobs/24680/UI-UX-Designer",
+  "referral_info": "Contact Tanukj for referral.",
+  "content": "Zoho is looking for creative UI/UX designers.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec63"
+  },
+  "type": "thread",
+  "title": "Sample Thread Post 6",
+  "excerpt": "This is a sample excerpt for thread post 6.",
+  "author": "Deekshith",
+  "authorId": "deekshith6",
+  "category": "Career",
+  "read_time": "8 min read",
+  "tags": [
+    "Career",
+    "Sample"
+  ],
+  "content": "This is the full content of sample thread post 6.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  },
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec64"
+  },
+  "type": "job",
+  "title": "Cloud Engineer - IBM",
+  "excerpt": "IBM is hiring Cloud Engineers. Apply for exciting cloud projects!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.ibm.com/job/13579/Cloud-Engineer",
+  "referral_info": "Contact Rinaaz for referral.",
+  "content": "IBM is looking for Cloud Engineers to work on next-gen cloud solutions.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec65"
+  },
+  "type": "job",
+  "title": "DevOps Engineer - Flipkart",
+  "excerpt": "Flipkart is hiring DevOps Engineers. Join the e-commerce revolution!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.flipkart.com/job/24680/DevOps-Engineer",
+  "referral_info": "Contact Mohit for referral.",
+  "content": "Flipkart is looking for DevOps Engineers for their cloud team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec66"
+  },
+  "type": "job",
+  "title": "Cybersecurity Analyst - Deloitte",
+  "excerpt": "Deloitte is hiring Cybersecurity Analysts. Secure the digital world!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.deloitte.com/job/35791/Cybersecurity-Analyst",
+  "referral_info": "Contact Akhilesh for referral.",
+  "content": "Deloitte is looking for Cybersecurity Analysts for their security team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec67"
+  },
+  "type": "job",
+  "title": "Product Manager - Byju’s",
+  "excerpt": "Byju’s is hiring Product Managers. Lead the next wave in EdTech!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.byjus.com/job/46802/Product-Manager",
+  "referral_info": "Contact Tanukj for referral.",
+  "content": "Byju’s is looking for Product Managers to drive innovation.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec68"
+  },
+  "type": "job",
+  "title": "Android Developer - Ola",
+  "excerpt": "Ola is hiring Android Developers. Build the future of mobility!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.ola.com/job/57913/Android-Developer",
+  "referral_info": "Contact Deekshith for referral.",
+  "content": "Ola is looking for Android Developers for their mobile team.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686e4a7b554983845223ec69"
+  },
+  "type": "job",
+  "title": "QA Engineer - Paytm",
+  "excerpt": "Paytm is hiring QA Engineers. Ensure quality at scale!",
+  "author": "Placement Cell",
+  "category": "Jobs",
+  "read_time": "1 min read",
+  "job_link": "https://careers.paytm.com/job/68024/QA-Engineer",
+  "referral_info": "Contact Bahrath M for referral.",
+  "content": "Paytm is looking for QA Engineers to test and improve their products.",
+  "likes": [],
+  "date": {
+    "$date": "2025-07-09T10:54:51.169Z"
+  }
+}]

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import apiService from '../services/api';
-import { useAuth } from '../AuthContext.jsx';
+import { useAuth } from '../hooks/useAuth';
 
 const StudentInfo = () => {
   const [isEditing, setIsEditing] = useState(false);
@@ -27,14 +27,14 @@ const StudentInfo = () => {
       try {
         const res = await apiService.authAPI.getProfile(token);
         setStudentData(res.user);
-      } catch (err) {
+      } catch {
         setError('Failed to load user info. Please login again.');
       } finally {
         setLoading(false);
       }
     };
     fetchUser();
-  }, [token]);
+  }, [token, navigate]);
 
   const handleInputChange = (field, value) => {
     setStudentData(prev => ({
@@ -51,7 +51,7 @@ const StudentInfo = () => {
       const updatedData = { ...studentData, cgpa: studentData.cgpa !== undefined ? Number(studentData.cgpa) : undefined };
       await apiService.updateProfile(updatedData);
       setSuccessMsg('Profile updated successfully!');
-    } catch (err) {
+    } catch {
       setError('Failed to update profile. Please try again.');
     }
   };

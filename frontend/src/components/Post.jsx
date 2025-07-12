@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { postAPI } from '../services/api';
-import { useAuth } from '../AuthContext.jsx';
+import { useAuth } from '../hooks/useAuth';
 import CreatePost from './CreatePost.jsx';
 
-// Universal safe JSON parse helper
-function safeJSONParse(str, fallback = null) {
+// Universal safe JSON parse helper (unused but kept for future use)
+function _safeJSONParse(str, fallback = null) {
   try {
     return str ? JSON.parse(str) : fallback;
   } catch {
@@ -200,7 +200,7 @@ const Post = ({ darkMode, setDarkMode }) => {
         }));
         setModalComments(mockComments);
       }
-    } catch (err) {
+    } catch {
       setModalComments([]);
     } finally {
       setCommentLoading(false);
@@ -221,7 +221,7 @@ const Post = ({ darkMode, setDarkMode }) => {
       await postAPI.addComment(modalPost.id, commentObj, token);
       setNewComment('');
       fetchComments(modalPost.id);
-    } catch (err) {
+    } catch {
       // Optionally show error
     } finally {
       setCommentLoading(false);

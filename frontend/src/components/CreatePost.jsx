@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { postAPI } from '../services/api';
-import { useAuth } from '../AuthContext.jsx';
+import { useAuth } from '../hooks/useAuth';
 
 const categories = [
   'AI-ML', 'Programming', 'Telecommunications', 'Study Tips', 'Career', 'Other'

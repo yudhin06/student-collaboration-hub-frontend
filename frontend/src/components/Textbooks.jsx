@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../AuthContext';
+import { useAuth } from '../hooks/useAuth';
 
 const textbooks = [
   { name: 'Introduction to Machine Learning', subject: 'AI-ML', author: 'rinaaz', url: '#' },

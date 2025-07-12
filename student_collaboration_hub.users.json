@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "686a3bd6476f34fcee4ce8ec"
+  },
+  "name": "yudhin",
+  "email": "yudhinkarthikey12@gmail.com",
+  "password": "$2b$12$Y7.fBRNvrWZVdOWtKPf/u.ic0XPB898Vco8/IXEoYCY4Nx0kvCDDy",
+  "cgpa": 8.03,
+  "phone": "9502667686",
+  "dateOfBirth": {
+    "$date": "2006-08-06T00:00:00.000Z"
+  },
+  "profilePicture": null,
+  "isActive": true,
+  "lastLogin": {
+    "$date": "2025-07-10T13:08:23.817Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-06T09:03:18.983Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-10T13:08:23.820Z"
+  },
+  "__v": 0,
+  "address": "seethamadara",
+  "emergencyContact": "9000711229",
+  "hobbies": "driving cars",
+  "skills": "driving"
+},
+{
+  "_id": {
+    "$oid": "686a52cc476f34fcee4ce912"
+  },
+  "name": "mohittopper",
+  "email": "mohttopper@gmal.com",
+  "password": "$2b$12$0vpUtwG5p6EZ7Vd1GwxFtuVpTMkxQEJMt1bj5XsZRzYLEWJrnLuA6",
+  "cgpa": 0,
+  "phone": "7013469999",
+  "dateOfBirth": {
+    "$date": "2001-08-06T00:00:00.000Z"
+  },
+  "profilePicture": null,
+  "isActive": true,
+  "lastLogin": {
+    "$date": "2025-07-06T10:41:16.960Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-06T10:41:16.961Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-06T10:41:16.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a535f476f34fcee4ce918"
+  },
+  "name": "mohit",
+  "email": "theonlyudhin64@gmail.com",
+  "password": "$2b$12$gkKHEbxxPExtCr/ranN7L.WOnLIyRWQhBtFKutwnVum2.YA3uoxZu",
+  "cgpa": 9.2,
+  "phone": "9000000000",
+  "dateOfBirth": {
+    "$date": "2006-08-06T00:00:00.000Z"
+  },
+  "profilePicture": null,
+  "isActive": true,
+  "lastLogin": {
+    "$date": "2025-07-09T18:28:13.286Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-06T10:43:43.120Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T18:28:13.290Z"
+  },
+  "__v": 0,
+  "address": "akkayapalem",
+  "emergencyContact": "1000000000000000000",
+  "hobbies": "lipstickspoiler",
+  "skills": "heartattacker",
+  "photo": "/static/profile_photos/686a535f476f34fcee4ce918.PNG"
+},
+{
+  "_id": {
+    "$oid": "686a6f79795941ffe3b063d7"
+  },
+  "name": "messi",
+  "email": "messi@gmail.com",
+  "password": "$2b$12$SVhHn38ZRNkjA5bJcD6uVuMgedvNRifmMOnAwjJLOazBGsc.4ysOu",
+  "phone": "1234567890",
+  "dateOfBirth": "1989-06-21",
+  "rollNumber": null,
+  "department": null,
+  "year": null,
+  "semester": null,
+  "cgpa": 0,
+  "gender": null,
+  "bloodGroup": null,
+  "address": null,
+  "emergencyContact": null,
+  "hobbies": null,
+  "skills": null,
+  "profilePicture": null
+},
+{
+  "_id": {
+    "$oid": "686eb2c9d34d3e241b8372be"
+  },
+  "name": "Test User",
+  "email": "test@example.com",
+  "password": "$2b$12$jSNLqn4JrGOgS.MKqBJSoujnFidArD68Qr1GpISJdTDPuY9C75V5y",
+  "cgpa": 0,
+  "phone": "1234567890",
+  "dateOfBirth": {
+    "$date": "1990-01-01T00:00:00.000Z"
+  },
+  "profilePicture": null,
+  "isActive": true,
+  "lastLogin": {
+    "$date": "2025-07-09T18:23:40.272Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T18:19:53.072Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T18:23:40.276Z"
+  },
+  "__v": 0
+}]

@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 // Auth API endpoints
 export const authAPI = {
@@ -167,6 +167,8 @@ export const healthCheck = async () => {
   const response = await fetch(`${API_BASE_URL}/health`);
   return response.json();
 };
+
+export { API_BASE_URL };
 
 const apiService = { authAPI, postAPI, healthCheck };
 
